@@ -1,0 +1,80 @@
+body {margin:0;}
+
+.all-cards{
+    overflow-y: scroll;
+    height: 500px;
+}
+.card {
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+width: 40%;
+margin: auto;
+margin-bottom: 20px;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+display: inline-block;
+padding: 2px 16px;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+top: 0;
+width: 100%;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+.search{
+float: right;
+padding: 10px;
+margin: 5px;
+} 
+.firm{
+    margin-left:20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 95%;
+    height: 450px;
+    margin-bottom: 20px;
+}
+.firm:hover{
+    background:linear-gradient(to right, grey, white);
+}
+.in{
+    width: 80%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size:16px;
+}
+.submit{
+    margin-left: 50px;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+}
+.submit:hover{
+    background-color:blue;
+    color:whitesmoke;
+}
